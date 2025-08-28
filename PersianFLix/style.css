@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: #121212;
+    font-family: "Vazirmatn", sans-serif;
+}
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.top-header {
+  width: 1200px;
+  /* background-color: aquamarine; */
+  flex-direction: row;
+  display: flex;
+  padding: 20px 0;
+  border-bottom:solid 5px #E50914;
+  border-radius: 20px;
+  
+}
+
+.header-right {
+    font-size: 20px;
+    display: flex;
+    width: 60%;
+    align-items: center;
+    padding:10px ;
+    color: #ffffff;
+    
+}
+
+.header-left {
+    /* background-color: chartreuse; */
+    display: flex;
+    width:40%;
+    justify-content: flex-end;
+    align-items: center;
+    padding:10px ;
+}
+
+.header-left a{
+    margin-right: 20px;
+}
+
+.button{
+    font-size: 25px;
+    background-color: #E50914;
+    color: aliceblue;
+    
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    padding:5px;
+    line-height: 30px;
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+.button:hover{
+    color:#ffffff;
+    background-color: #2e2e2e;
+    cursor: pointer;
+    
+}
+
+.meny-list{
+    display: flex;
+    list-style: none;
+    margin-right: 20px
+}
+.menu-item{
+    margin-right: 20px;
+}
+
+a:link{
+    color: #E50914;
+    text-decoration: none;
+}
+
+a:hover{
+    color: aliceblue;
+}
+
+
+p,h1,h2{
+    color: #ffffff;
+}
+.bottom-header{
+    text-align: center;
+    padding:10px ;
+    margin: 20px;
+}
+
+.article{
+    display: flex;
+    padding:30px 0;
+    flex-direction: column;
+}
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  background-color: #E50914;
+  border-radius: 10px;
+  margin:20px
+}
+
+.movie-card {
+  background-color: #1E1E1E;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+.movie-card:hover {
+  transform: scale(1.05);
+  border: 1px solid #E50914;
+}
+.movie-card img {
+  width: 100%;        
+  height: 300px;     
+  object-fit: cover;   
+  border-radius: 8px;  
+  margin-bottom: 10px;
+}
+.footer{
+    border-top:#E50914 2px solid;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 40px;
+}
